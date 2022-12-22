@@ -92,7 +92,20 @@ hr {
 }
 
 label {
-    color:#FFFFFF;
+    color:#D5D4D8;
     font-size: 1.5vh;
     font-family: 'inter';
+}
+
+.checkboxes-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4vh;
+}
+
+#passLength {
+    font-size: 1.5rem;
+    font-family: 'inter';
+    width: 6%;
+    margin-left: 1vh;
 }
