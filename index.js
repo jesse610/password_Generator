@@ -11,13 +11,13 @@ let firstPasswordEl = document.querySelector('#textArea-one')
 let secondPasswordEl = document.querySelector('#textArea-two')
 
 
-
 passwordBtn.addEventListener('click', generatePasswords)
 
 function generatePasswords() {
     let pWordOne = ''
     let pWordTwo = ''
-    passwordLength = 15
+
+    let passwordLength = document.querySelector('#passLength').value
 
     for (let i = 0; i < passwordLength; i++) {
         let pCharOne = Math.floor(Math.random() * characters.length)
