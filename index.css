@@ -11,12 +11,14 @@ h1 {
     color: white;
     margin-bottom: 0;
     font-size: 5rem;
+    font-family: 'karla';
 }
 
 p {
     color: #D5D4D8;
     margin-top: 10px;
     font-size: 2.5rem;
+    font-family: 'Inter';
 }
 
 .main-container {
@@ -35,21 +37,21 @@ button {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     margin-top: 3vh;
-    margin-bottom: 0;
+    margin-bottom: 2vh;
 
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
     line-height: 24px;
     color: #FFFFFF;
+    font-family: 'inter';
 
 }
 
 .pass-container {
     display: flex;
     gap: 2vh;
-    border-top: 1px solid;
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 
 #passfield-one, 
@@ -58,17 +60,33 @@ button {
     align-items: center;
     justify-content: center;
 
-    margin-top: 3vh;
-    flex-basis: 20vh;
+    margin-top: 1vh;
+    min-width: 25vh;
+    max-width: 50vh;
     background: #273549;
     border-radius: 6px;
-    height: 3vh;
+    height: 4vh;
+    padding: 0 1vh;
 
-    font-size: 2rem;
-    color: #55F991
+    font-size: 1.5rem;
+    color: #55F991;
+    font-family: 'inter';
+    
+}
+
+#textArea-one,
+#textArea-two {
+    font-family: 'inter';
+    align-items: center;
+    justify-content: center;
     
 }
 
 .green_text {
     color: #4ADF86
+}
+
+hr {
+    color: black;
+    margin-right: 5vh;
 }
